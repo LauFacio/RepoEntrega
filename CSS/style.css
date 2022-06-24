@@ -86,7 +86,6 @@ body{
 
 
 
-
 iframe{
 	padding: 10px;
 	width: 300px;
@@ -281,7 +280,7 @@ fieldset form {
 .imagenhome{
 	margin-top: 1rem;
 	margin-right: 2rem;
-		padding-top: 10rem;
+		padding-top: 12rem;
 		display: block;
 
 }
@@ -311,6 +310,13 @@ fieldset form {
 
 .p-civil {
 	padding: 40px;
+}
+
+.nav-item{
+	font-size: 2rem;
+	margin-left: 80px;
+	
+
 }
 
 iframe{
