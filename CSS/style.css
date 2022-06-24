@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Patrick+Hand&family=Poppins:wght@300&family=Roboto:ital@0;1&display=swap');
+
+
+/*Reset*/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+
+h1,
+h2{ 
+	font-family:'Roboto', sans-serif;
+	padding: 2rem;
+	margin-top: 18px;
+}
+
+
+body{
+	background-image: url(../imagen/Fondopinceladas.jpg);
+	background-attachment: fixed;
+}
+
+
+
+
+#grid-rubro{
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-areas: "titulos" "plaboral" "pcivil" "pconsumidor" "pfamilia" "pie"
+
+}
+
+
+@media (min-width: 768px) {
+
+#grid-rubro{
+		grid-template-columns: auto auto;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"titulos titulos"
+		"plaboral pcivil"
+		"pconsumidor pfamilia"
+		"pie pie";
+	
+}
+
+.p-laboral{
+	padding: 5px;
+	margin-top: 15px;
+	
+}
+
+.p-civil {
+	padding: 5px;
+	margin: 5px;
+	
+}
+
+.p-consumidor{
+	padding: 5px;
+	margin: 5px;
+
+}
+
+.p-familia{
+	padding: 5px;
+	margin: 5px;
+	
+	
+}
+
+
+}
+
+
+
+
+iframe{
+	padding: 10px;
+	width: 300px;
+}
+
+article p{
+	color:#083778;
+	font-family: 'Dosis', sans-serif;
+	font-size: 3rem;
+}
+
+p{
+	color:#083778;
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.5rem;
+	padding: 1rem;
+
+}
+
+
+fieldset{
+	font-size: 2rem;
+}
+
+
+fieldset form {
+	font-size: 2rem;
+}
+
+
+
+
+/*selector de clase*/
+.text-center{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.text-black{
+	font-weight: bold;
+}
+
+.cuadroformulario{
+	margin: 2rem;
+}
+
+.rubro{
+	font-family: 'Dosis', sans-serif;
+	font-size: 3rem;
+	
+}
+
+.p-laboral{
+	grid-area: plaboral;
+	
+}
+
+.p-civil {
+	grid-area: pcivil;
+	
+}
+
+.p-consumidor{
+	grid-area: pconsumidor;
+	
+}
+
+.p-familia{
+	grid-area: pfamilia;
+	
+}
+
+
+
+.linear-gradient{
+	background: linear-gradient(to top, #7FC2DE, #B2F0F4);
+
+}
+
+
+
+.imagen{
+	margin: 0 auto;
+	display: block;
+}
+
+.piecontacto{
+	padding: 1.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.descripcion{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+.transform:hover{
+	font-weight: 900;
+	transform: scaleX(0.9);
+	cursor: pointer;
+}
+
+
+/*Box model*/
+
+.frase__parrafo{
+	width: auto;
+	height: auto;
+	margin: 20px;
+	padding: 10px;
+	border: double #355DC2 5px;
+	text-align: center;
+}
+
+
+/*Grid*/
+
+#contenedor-grid{
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: "titulos" "imagenhome" "textohome" "pie"
+}
+
+
+
+
+.titulos{
+	grid-area: titulos;
+	font-size: 2rem
+
+}
+
+.imagenhome{
+	grid-area: imagenhome;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.textohome{
+	grid-area: textohome;
+	font-family:'Roboto', sans-serif;
+	padding: 1rem;
+
+}
+
+
+
+.pie{
+	grid-area: pie;
+	padding: 1.5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+
+.fotoabogado {
+	width: 320px;
+
+}
+
+.nav-item {
+	font-family:'Patrick Hand', cursive;
+	font-size: 1.5rem;
+}
+
+/*media queries*/
+
+@media (min-width: 768px) {
+
+#contenedor-grid {
+		grid-template-columns: auto auto;
+		grid-template-rows: auto;
+		grid-template-areas:
+		"titulos titulos"
+		"textohome imagenhome"
+		"pie pie";
+	
+}
+
+.imagenhome{
+	margin-top: 1rem;
+	margin-right: 2rem;
+		padding-top: 10rem;
+		display: block;
+
+}
+
+.textohome{
+	
+	padding: 2rem;
+
+}
+
+
+
+.imagenjusticia{
+	width: 300px;
+
+}
+
+.fotoabogado {
+	width: 750px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.p-familia{
+	padding: 45px;
+}
+
+.p-civil {
+	padding: 40px;
+}
+
+iframe{
+	padding: 10px;
+	width: 700px;
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+.imagenhome{
+	margin-right: 3rem;
+	padding-bottom: 100px;
+	margin-top: 1px;
+	padding-top: 1px;
+	display: flex;
+	align-items: center;
+	margin-top: 90px;	
+
+}
+
+.imagenjusticia{
+	display: flex;
+	width: 500px;
+}
+
+.textohome{
+	
+	padding: 3rem;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+
+.titulos{
+	
+	font-size: 4rem;
+	margin-top: 40px;
+
+}
+
+
+.fotoabogado {
+	width: 1010px;
+	margin-left: 130px;
+
+}
+
+
+iframe{
+	width: 850px;
+}
+
+.navbar{
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+.nav-item{
+	font-size: 2.5rem;
+	margin-left: 80px;
+	
+
+}
+}
