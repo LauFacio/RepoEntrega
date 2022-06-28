@@ -29,6 +29,11 @@ body{
 	background-attachment: fixed;
 }
 
+legend{
+	margin-bottom: 20px;
+	font-size: 2rem;
+	text-align: center;
+}
 
 
 
@@ -193,6 +198,8 @@ fieldset form {
 }
 
 
+
+
 /*Box model*/
 
 .frase__parrafo{
@@ -250,7 +257,13 @@ fieldset form {
 
 }
 
+.bg-blue{
+	background-color: rgba(75, 194, 255, 0.47);
+}
 
+.bg-lightblue{
+	background-color: #92CBEF
+}
 
 
 .fotoabogado {
@@ -355,7 +368,7 @@ iframe{
 
 .titulos{
 	
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-top: 40px;
 
 }
