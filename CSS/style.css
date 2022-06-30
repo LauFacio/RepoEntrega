@@ -249,13 +249,17 @@ fieldset form {
 	font-family:'Roboto', sans-serif;
 }
 
+.imagencentrada{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
+}
 
 .pie{
 	grid-area: pie;
-	padding: 1.5px;
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 
 }
