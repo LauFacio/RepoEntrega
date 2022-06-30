@@ -37,6 +37,7 @@ legend{
 
 
 
+
 #grid-rubro{
 	height: 100vh;
 	width: 100vw;
@@ -85,7 +86,6 @@ legend{
 	
 	
 }
-
 
 }
 
@@ -163,7 +163,10 @@ fieldset form {
 	
 }
 
-
+.centrar{
+	display: block;
+	margin: auto;
+}
 
 .linear-gradient{
 	background: linear-gradient(to top, #7FC2DE, #B2F0F4);
@@ -172,9 +175,10 @@ fieldset form {
 
 
 
-.imagen{
-	margin: 0 auto;
-	display: block;
+.margin{
+	margin-left: 7px;
+	margin-top: 15px;
+	margin-right: 7px;
 }
 
 .piecontacto{
@@ -212,6 +216,7 @@ fieldset form {
 }
 
 
+
 /*Grid*/
 
 #contenedor-grid{
@@ -235,15 +240,13 @@ fieldset form {
 .imagenhome{
 	grid-area: imagenhome;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+
+	
 }
 
 .textohome{
 	grid-area: textohome;
 	font-family:'Roboto', sans-serif;
-	padding: 1rem;
-
 }
 
 
@@ -266,10 +269,7 @@ fieldset form {
 }
 
 
-.fotoabogado {
-	width: 320px;
 
-}
 
 .nav-item {
 	font-family:'Patrick Hand', cursive;
@@ -290,32 +290,9 @@ fieldset form {
 	
 }
 
-.imagenhome{
-	margin-top: 1rem;
-	margin-right: 2rem;
-		padding-top: 12rem;
-		display: block;
-
-}
-
-.textohome{
-	
-	padding: 2rem;
-
-}
 
 
 
-.imagenjusticia{
-	width: 300px;
-
-}
-
-.fotoabogado {
-	width: 750px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
 
 .p-familia{
 	padding: 45px;
@@ -338,32 +315,11 @@ iframe{
 
 
 }
-
+}
 
 @media (min-width: 1024px) {
 
-.imagenhome{
-	margin-right: 3rem;
-	padding-bottom: 100px;
-	margin-top: 1px;
-	padding-top: 1px;
-	display: flex;
-	align-items: center;
-	margin-top: 90px;	
 
-}
-
-.imagenjusticia{
-	display: flex;
-	width: 500px;
-}
-
-.textohome{
-	
-	padding: 3rem;
-	justify-content: center;
-	margin-top: 60px;
-}
 
 
 .titulos{
@@ -374,11 +330,7 @@ iframe{
 }
 
 
-.fotoabogado {
-	width: 1010px;
-	margin-left: 130px;
 
-}
 
 
 iframe{
