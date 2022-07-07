@@ -1,359 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Patrick+Hand&family=Poppins:wght@300&family=Roboto:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Patrick+Hand&family=Poppins:wght@300&family=Roboto:ital@0;1&display=swap");
+.botonera {
+  background-color: #457FA7; }
 
-
-/*Reset*/
-
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-
-}
-
-
-html{
-	font-size: 62.5%;
-}
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 h1,
-h2{ 
-	font-family:'Roboto', sans-serif;
-	padding: 2rem;
-	margin-top: 18px;
-}
-
-
-body{
-	background-image: url(../imagen/Fondopinceladas.jpg);
-	background-attachment: fixed;
-}
-
-legend{
-	margin-bottom: 20px;
-	font-size: 2rem;
-	text-align: center;
-}
-
-
-
-
-#grid-rubro{
-	height: 100vh;
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(6, 1fr);
-	grid-template-areas: "titulos" "plaboral" "pcivil" "pconsumidor" "pfamilia" "pie"
-
-}
-
-
-@media (min-width: 768px) {
-
-#grid-rubro{
-		grid-template-columns: auto auto;
-		grid-template-rows: auto;
-		grid-template-areas:
-		"titulos titulos"
-		"plaboral pcivil"
-		"pconsumidor pfamilia"
-		"pie pie";
-	
-}
-
-.p-laboral{
-	padding: 5px;
-	margin-top: 15px;
-	
-}
-
-.p-civil {
-	padding: 5px;
-	margin: 5px;
-	
-}
-
-.p-consumidor{
-	padding: 5px;
-	margin: 5px;
-
-}
-
-
-
-.p-familia{
-	padding: 5px;
-	margin: 5px;
-	
-	
-}
-
-}
-
-
-
-iframe{
-	padding: 10px;
-	width: 300px;
-}
-
-article p{
-	color:#083778;
-	font-family: 'Dosis', sans-serif;
-	font-size: 3rem;
-}
-
-p{
-	color:#083778;
-	font-family: 'Dosis', sans-serif;
-	font-size: 2.5rem;
-	padding: 1rem;
-
-}
-
-
-fieldset{
-	font-size: 2rem;
-}
-
-
-fieldset form {
-	font-size: 2rem;
-}
-
-
-
-
-/*selector de clase*/
-.text-center{
-	text-align: center;
-	margin-top: 10px;
-}
-
-.text-black{
-	font-weight: bold;
-}
-
-.cuadroformulario{
-	margin: 2rem;
-}
-
-.rubro{
-	font-family: 'Dosis', sans-serif;
-	font-size: 3rem;
-	
-}
-
-.p-laboral{
-	grid-area: plaboral;
-	
-}
-
-.p-civil {
-	grid-area: pcivil;
-	
-}
-
-.p-consumidor{
-	grid-area: pconsumidor;
-	
-}
-
-.p-familia{
-	grid-area: pfamilia;
-	
-}
-
-.centrar{
-	display: block;
-	margin: auto;
-}
-
-.linear-gradient{
-	background: linear-gradient(to top,#CAE3EB,#B9DAEE);
-
-}
-
-
-
-.margin{
-	margin-left: 7px;
-	margin-top: 15px;
-	margin-right: 7px;
-}
-
-.piecontacto{
-	padding: 1.5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.descripcion{
-	align-items: center;
-	justify-content: center;
-	display: flex;
-}
-
-.transform:hover{
-	font-weight: 900;
-	transform: scaleX(0.9);
-	cursor: pointer;
-}
-
-
-
-
-/*Box model*/
-
-.frase__parrafo{
-	width: auto;
-	height: auto;
-	margin: 20px;
-	padding: 10px;
-	border: double #355DC2 5px;
-	text-align: center;
-}
-
-
-
-/*Grid*/
-
-#contenedor-grid{
-	height: 100vh;
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: repeat(4, 1fr);
-	grid-template-areas: "titulos" "imagenhome" "textohome" "pie"
-}
-
-
-
-
-.titulos{
-	grid-area: titulos;
-	font-size: 2rem
-
-}
-
-.imagenhome{
-	grid-area: imagenhome;
-	text-align: center;
-
-	
-}
-
-.textohome{
-	grid-area: textohome;
-	font-family:'Roboto', sans-serif;
-}
-
-.imagencentrada{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.pie{
-	grid-area: pie;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-
-}
-
-.bg-blue{
-	background-color: rgba(75, 194, 255, 0.47);
-}
-
-.bg-lightblue{
-	background-color: #92CBEF
-}
-
-.bg-black{
-	background-color: #060606
-}
-
-
-.nav-item {
-	font-family:'Patrick Hand', cursive;
-	font-size: 1.5rem;
-}
-
-/*media queries*/
-
-@media (min-width: 768px) {
-
-#contenedor-grid {
-		grid-template-columns: auto auto;
-		grid-template-rows: auto;
-		grid-template-areas:
-		"titulos titulos"
-		"textohome imagenhome"
-		"pie pie";
-	
-}
-
-
-
-
-
-.p-familia{
-	padding: 45px;
-}
-
-.p-civil {
-	padding: 40px;
-}
-
-.nav-item{
-	font-size: 2rem;
-	margin-left: 80px;
-	
-
-}
-
-iframe{
-	padding: 10px;
-	width: 700px;
-
-
-}
-}
-
-@media (min-width: 1024px) {
-
-
-
-
-.titulos{
-	
-	font-size: 3rem;
-	margin-top: 40px;
-
-}
-
-
-
-iframe{
-	width: 850px;
-}
-
-.navbar{
-	font-size: 2rem;
-	padding: 1rem;
-}
-
-.nav-item{
-	font-size: 2.5rem;
-	margin-left: 80px;
-	
-
-}
-
-
-}
+h2 {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 1.6em; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em; }
+
+fieldset {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  margin-left: 10px; }
+
+.p-rubros {
+  font-size: 1em;
+  color: #030303;
+  font-family: "Roboto", sans-serif; }
+
+.rubro {
+  font-size: 1.6em;
+  color: #06215F;
+  font-family: "Roboto", sans-serif; }
+
+.text-black {
+  font-weight: bold; }
+
+.imagenhome {
+  text-align: center; }
+
+.pie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px; }

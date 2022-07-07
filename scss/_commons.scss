@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+h1,
+h2{ 
+	font-family: $mainFont;
+}
+
+h1{
+	font-size: $textXl;
+}
+
+h2{
+	font-size: $textLg;
+}
+
+h3{
+	font-size: $textLg;
+
+}
+
+
+p{
+	font-family: $mainFont;
+	font-size: $textMd;
+}
+
+fieldset{
+	font-family: $mainFont;
+		font-size: $textMd;
+		margin-left: 10px;
+}
+
+
+
+.p-rubros{
+	font-size: $textMd;
+	color: $black;
+	font-family: $mainFont
+}
+
+.rubro{
+	font-size: $textLg;
+	color: $mainColor;
+	font-family: $mainFont;
+}
+
+.text-black{
+	font-weight: bold;
+}
+
+.imagenhome{
+		text-align: center;
+	
+	}
