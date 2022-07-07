@@ -18,7 +18,7 @@ h2 {
   font-size: 1.6em; }
 
 h3 {
-  font-size: 1.6em; }
+  font-size: 1em; }
 
 p {
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,10 @@ fieldset {
 .rubro {
   font-size: 1.6em;
   color: #06215F;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: auto;
+  padding: 12px; }
 
 .text-black {
   font-weight: bold; }

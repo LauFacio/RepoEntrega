@@ -19,7 +19,7 @@ h2{
 }
 
 h3{
-	font-size: $textLg;
+	font-size: $textMd;
 
 }
 
@@ -47,6 +47,9 @@ fieldset{
 	font-size: $textLg;
 	color: $mainColor;
 	font-family: $mainFont;
+	font-weight: bold;
+	margin: auto;
+	padding: 12px;
 }
 
 .text-black{
