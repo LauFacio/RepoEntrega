@@ -1,3 +1,5 @@
+
+
 // extends
 
 .btn-enviar{
@@ -44,11 +46,11 @@ h4{
 
 
 .pregunta{
-	@include texto(1em, bold, 2.4em, $secondaryColor);
+	@include texto(1.1em, bold, 2.4em, $secondaryColor);
 }
 
 .respuesta{
-	@include texto(1em, normal, 2.4em, $black);
+	@include texto(1.1em, normal, 2.4em, $black);
 }
 
 @mixin flex($justify, $align){
@@ -65,6 +67,7 @@ h4{
 
 //maps
 
+
 $paleta:(
 	'uno': #061258,
 	'dos': #242D81,
@@ -78,3 +81,4 @@ $paleta:(
 	background-color: map-get($map:$paleta, $key: 'cinco')
 
 }
+

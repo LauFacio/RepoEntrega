@@ -5,7 +5,9 @@
 
 }
 
-
+html{
+	background-color: pink;
+}
 
 h1,
 h2,
@@ -26,7 +28,7 @@ h2{
 
 
 p{
-	font-family: $mainFont;
+	font-family: $secondaryFont;
 	font-size: $textMd;
 	padding: 8px;
 }
@@ -66,6 +68,7 @@ iframe{
 .mtop{
 	margin-top: 30px;
 }
+
 
 
 //nesting
