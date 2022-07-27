@@ -62,6 +62,15 @@ body {
   margin-left: 10px;
   margin-bottom: 35px; }
 
+.imagenfluida {
+  max-width: 100%;
+  height: auto; }
+
+.contenedorimagen {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .rubro {
   font-size: 1.8em;
   color: #06215F;
