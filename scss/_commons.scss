@@ -5,9 +5,7 @@
 
 }
 
-html{
-	background-color: pink;
-}
+
 
 h1,
 h2,
@@ -44,7 +42,11 @@ iframe{
 
 }
 
-
+body {
+	background-image: url(../imagen/fondo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 .imagenhome{
 	text-align: center;
@@ -69,7 +71,11 @@ iframe{
 	margin-top: 30px;
 }
 
-
+.respuesta {
+	font-size: 1.1em;
+	margin-left: 10px;
+	margin-bottom: 35px;
+}
 
 //nesting
 

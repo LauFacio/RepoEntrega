@@ -9,9 +9,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-html {
-  background-color: pink; }
-
 h1,
 h2,
 h3,
@@ -39,6 +36,11 @@ fieldset {
 iframe {
   padding: 8px; }
 
+body {
+  background-image: url(../imagen/fondo.jpg);
+  background-attachment: fixed;
+  background-size: cover; }
+
 .imagenhome {
   text-align: center; }
 
@@ -54,6 +56,11 @@ iframe {
 
 .mtop {
   margin-top: 30px; }
+
+.respuesta {
+  font-size: 1.1em;
+  margin-left: 10px;
+  margin-bottom: 35px; }
 
 .rubro {
   font-size: 1.8em;
@@ -90,8 +97,8 @@ h3 {
   line-height: 2.4em;
   color: #06215F;
   margin-left: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px; }
+  margin-top: 2px;
+  margin-bottom: 2px; }
 
 h4 {
   font-size: 1.2em;
@@ -99,8 +106,8 @@ h4 {
   line-height: 2.4em;
   color: #06215F;
   margin-left: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px; }
+  margin-top: 2px;
+  margin-bottom: 2px; }
 
 .pregunta {
   font-size: 1.1em;
@@ -108,17 +115,8 @@ h4 {
   line-height: 2.4em;
   color: #457FA7;
   margin-left: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px; }
-
-.respuesta {
-  font-size: 1.1em;
-  font-weight: normal;
-  line-height: 2.4em;
-  color: #030303;
-  margin-left: 10px;
-  margin-top: 4px;
-  margin-bottom: 4px; }
+  margin-top: 2px;
+  margin-bottom: 2px; }
 
 .pie {
   display: flex;

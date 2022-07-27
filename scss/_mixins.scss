@@ -32,8 +32,8 @@
 	line-height: $line-height;
 	color: $color;
 	margin-left: 10px;
-	margin-top: 4px;
-	margin-bottom: 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 h3{
@@ -49,9 +49,7 @@ h4{
 	@include texto(1.1em, bold, 2.4em, $secondaryColor);
 }
 
-.respuesta{
-	@include texto(1.1em, normal, 2.4em, $black);
-}
+
 
 @mixin flex($justify, $align){
 	display: flex;
