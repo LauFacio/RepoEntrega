@@ -37,6 +37,7 @@ fieldset{
 		margin-left: 10px;
 }
 
+
 iframe{
 	padding: 8px;
 
@@ -77,17 +78,24 @@ body {
 	margin-bottom: 35px;
 }
 
-.imagenfluida{
-	max-width: 100%;
-	height: auto;
 
-}
 
 .contenedorimagen{
+	height: 100vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	
 }
+
+.imagenfluida {
+	max-height: 100%;
+  	max-width: 100%;
+ 
+
+}
+
+
 
 //nesting
 
